@@ -135,7 +135,7 @@ Each block archive will have a companion hash root (obtained via SSZ
 beacon chain's `BeaconState.historical_roots`). 
 
 After the merge, we could "seal" the accumulator and
-publish its root of the accumulator - that one root could be used to
+publish its root - that root could be used to
 verify any archive file (and its contents).
 
 Of course, assuming EIP-4444 continues post merge, we will need to
