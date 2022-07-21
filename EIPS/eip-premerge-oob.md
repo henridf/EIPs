@@ -119,7 +119,7 @@ class LogPayload(Container):
 
 **Use of SSZ**
 
-We use SSZ rather than RLP, despite it being the primary encoding used in the PoW chain. One advantage of SSZ isthat it allows complete specification of structures, which can be encoded/decoded unambiguously into all languages with SSZ implementations. This makes it easy for block archive files to be used by all execution clients. Also, SSZ provides merkelization out of the box, allowing us to trivially obtain and verify roots for an entire archive as well as individual blocks and block fields.
+We use SSZ rather than RLP, despite it being the primary encoding used in the PoW chain. One advantage of SSZ is that it allows complete specification of structures, which can be encoded/decoded unambiguously into all languages with SSZ implementations. This makes it easy for block archive files to be used by all execution clients. Also, SSZ provides merkelization out of the box, allowing us to trivially obtain and verify roots for an entire archive as well as individual blocks and block fields.
 
 
 
